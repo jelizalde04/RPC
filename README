@@ -1,0 +1,29 @@
+## RPC Proyect
+
+- **Cliente.java**: The client program that sends messages to the server.
+- **Servidor.java**: The server program that receives messages from the client and sends a response back.
+
+## Setup Instructions
+
+1. Clone or download this repository to your local machine.
+
+2. Open a terminal and navigate to the `src` directory where the Java files are located.
+
+   Example:
+   ```bash
+   cd path/to/RPC/src
+Compile the Java files:
+
+      javac Cliente.java Servidor.java
+Run the server: In one terminal window, run the server:
+
+
+      java -cp . Servidor
+Run the client: In another terminal window, run the client:
+
+      java -cp . Cliente
+
+
+The client will prompt you to enter a message to send to the server. Type a message and press Enter. 
+The server will respond with a confirmation message.
+To stop the client-server communication, type salir in the client terminal.

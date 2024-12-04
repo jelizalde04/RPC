@@ -1,0 +1,9 @@
+{
+    "java.jdt.ls.java.home": "C:\\MARCOS\\jdk1.8.0_361",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\MARCOS\\jdk1.8.0_361"
+        }
+    ]
+}
